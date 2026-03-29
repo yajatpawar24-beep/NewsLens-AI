@@ -1,0 +1,47 @@
+{
+  "summary": "This is an example briefing output. In a real scenario, this would contain a 400-500 word executive summary synthesized from multiple Economic Times articles.",
+  "key_points": [
+    "First key insight from the articles",
+    "Second important finding",
+    "Third major development",
+    "Fourth strategic implication",
+    "Fifth market impact",
+    "Sixth competitive analysis",
+    "Seventh financial metric",
+    "Eighth operational change",
+    "Ninth regulatory update",
+    "Tenth future outlook"
+  ],
+  "insights": {
+    "contradictions": [
+      "Article A reports X, but Article B states Y"
+    ],
+    "consensus": [
+      "All sources agree on this major point"
+    ]
+  },
+  "questions": [
+    "What are the strategic implications?",
+    "How will this affect market dynamics?",
+    "What is the competitive response?",
+    "What are the execution risks?",
+    "How does this impact stakeholders?",
+    "What are the regulatory considerations?",
+    "What is the timeline for implementation?",
+    "What are the financial projections?"
+  ],
+  "entity_graph": {
+    "entities": [
+      {"name": "Company A", "type": "company", "context": "Leading player in the market"},
+      {"name": "CEO Name", "type": "person", "context": "Chief Executive Officer"},
+      {"name": "Policy X", "type": "policy", "context": "New regulatory framework"}
+    ],
+    "relationships": [
+      {"source": "Company A", "target": "CEO Name", "type": "leads", "strength": 0.9},
+      {"source": "Policy X", "target": "Company A", "type": "regulates", "strength": 0.7}
+    ]
+  },
+  "visualizations": [],
+  "audio_url": "http://localhost:8000/api/audio/example.mp3",
+  "session_id": "example-session-123"
+}
